@@ -334,25 +334,27 @@ http://127.0.0.1:8001/docs
 
 ## Screenshots
 
+## Screenshots
+
 ### Swagger UI
 
-![Swagger UI](screenshots/05_swagger_ui.png)
+![Swagger UI](screenshots/01_swagger_ui.png)
 
 ### CSV quality report
 
-![CSV quality report](screenshots/10_analyze_bad_sample_response.png)
+![CSV quality report](screenshots/02_csv_quality_report.png)
 
 ### Expected columns validation
 
-![Expected columns validation](screenshots/11_expected_columns_validation.png)
+![Expected columns validation](screenshots/03_expected_columns_validation.png)
 
 ### Tests passed
 
-![Pytest passed](screenshots/12_pytest_passed.png)
+![Pytest passed](screenshots/04_pytest_passed.png)
 
 ### Docker run
 
-![Docker run](screenshots/14_docker_run_success.png)
+![Docker run](screenshots/05_docker_run.png)
 
 ## Roadmap
 

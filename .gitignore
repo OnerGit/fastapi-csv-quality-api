@@ -18,3 +18,4 @@ Thumbs.db
 # Local artifacts
 .env
 *.log
+_local_evidence/
