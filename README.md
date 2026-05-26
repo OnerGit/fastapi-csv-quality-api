@@ -300,6 +300,10 @@ Stop:
 docker compose down
 ```
 
+## Troubleshooting
+
+Common Windows, Docker, and CSV parsing issues are documented in [docs/troubleshooting.md](docs/troubleshooting.md).
+
 ## Common Windows 11 notes
 
 ### Use `curl.exe` in PowerShell
@@ -331,8 +335,6 @@ Then open:
 ```text
 http://127.0.0.1:8001/docs
 ```
-
-## Screenshots
 
 ## Screenshots
 
@@ -377,13 +379,11 @@ Not included in this MVP:
 - Kubernetes deployment
 - production cloud infrastructure
 
-## Article links
+## Related writing
 
-Add links here after publishing:
-
-- Dev.to project note: TBD
-- Civo tutorial idea: TBD
-- Draft.dev writing sample: TBD
+- Project note: coming soon
+- Cloud-native deployment tutorial: proposed
+- Engineering reflection: planned
 
 ## License
 
