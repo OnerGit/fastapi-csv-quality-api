@@ -1,0 +1,8 @@
+services:
+  csv-quality-api:
+    build: .
+    container_name: fastapi-csv-quality-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./sample_data:/app/sample_data:ro

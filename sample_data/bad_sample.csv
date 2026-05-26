@@ -1,0 +1,7 @@
+id,name,email,age,signup_date,notes
+1,Alice,alice@example.com,34,2024-01-10,
+2,Bob,,29,2024-01-11,
+2,Bob,,29,2024-01-11,
+3,,charlie@example.com,,2024-01-12,
+4,Diana,diana@example.com,31,,
+5,Eve,eve@example.com,not_available,,
