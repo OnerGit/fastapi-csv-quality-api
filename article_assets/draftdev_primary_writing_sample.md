@@ -40,7 +40,7 @@ uvicorn app.main:app --reload
 
 After the server starts, open the interactive API docs at `http://127.0.0.1:8000/docs`.
 
-![The FastAPI Swagger UI exposes /health and /analyze.](../screenshots/fig1_swagger_ui.png)
+![The FastAPI Swagger UI exposes /health and /analyze.](../screenshots/01_swagger_ui.png)
 
 ## Project overview
 
@@ -121,7 +121,7 @@ async def analyze_csv(
     )
 ```
 
-![Uploading a CSV through the /analyze endpoint.](../screenshots/fig2_upload_endpoint.png)
+
 
 You can test the endpoint from Windows PowerShell with `curl.exe`:
 
@@ -186,7 +186,7 @@ empty_columns = [
 
 A useful API should return data that is easy to consume. The report includes both machine-readable fields and human-readable warnings.
 
-![A cropped Swagger response body for a good CSV upload.](../screenshots/fig3_good_response_body.png)
+![A structured CSV quality report rendered in Swagger UI.](../screenshots/02_csv_quality_report.png)
 
 ```json
 {
@@ -221,7 +221,7 @@ class CsvQualityApiError(Exception):
         self.details = details or {}
 ```
 
-![A bad CSV still returns HTTP 200, but warnings identify quality issues.](../screenshots/fig4_bad_response_body.png)
+![Expected-column validation reports missing or unexpected columns.](../screenshots/03_expected_columns_validation.png)
 
 For invalid uploads such as a non-CSV file, the API returns a structured error instead of a raw stack trace:
 
@@ -253,7 +253,7 @@ def test_analyze_rejects_non_csv_file():
     assert response.json()["error"]["code"] == "invalid_file_type"
 ```
 
-![pytest verifies the API contract and error behavior.](../screenshots/fig5_pytest_passed.png)
+![pytest verifies the API contract and error behavior.](../screenshots/04_pytest_passed.png)
 
 ## What to improve next
 
