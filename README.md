@@ -381,9 +381,7 @@ Not included in this MVP:
 
 ## Related writing
 
-- Project note: coming soon
-- Cloud-native deployment tutorial: proposed
-- Engineering reflection: planned
+- [Build a CSV Data Quality API With FastAPI and Pydantic](article_assets/draftdev_primary_writing_sample.md)
 
 ## License
 
