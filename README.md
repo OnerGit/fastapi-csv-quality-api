@@ -381,7 +381,8 @@ Not included in this MVP:
 
 ## Related writing
 
-- [Build a CSV Data Quality API With FastAPI and Pydantic](article_assets/draftdev_primary_writing_sample.md)
+- [Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker](https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld)
+- [AI-Assisted Development Is Not Autopilot](https://dev.to/bob_oner/ai-assisted-development-is-not-autopilot-15ie)
 
 ## License
 
